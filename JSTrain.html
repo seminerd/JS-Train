@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>What Can Java Script Do?</h2>>
+	<p>Java script can change HTML attribute values.</p>
+	<p>In this case Javascript changes the values of the src (source) attribute of an image.</p>
+	<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+	<img src="pic_bulboff.gif" style="width: 100px" id="myImage">
+	<button></button>
+	<script>
+		document.getElementById("demo").innerHTML = 5+6;
+		document.write(5+6);
+		window.alert(5+6);
+		console.log
+
+	</script>
+	<script>
+		function myfunc(x1,x2){
+			return x1+x2;
+		}
+		function toCelcius(Fdegree) {
+			return (5/9)*(Fdegree-32);
+		}
+		document.getElementById("demo").innerHTML = toCelcius(500);
+		var g = myfunc(5,6);
+		var x,y,z ;
+		var line;
+		line = " a string var";
+		x =5 ;
+		y = 6;
+		var cars = ["suv","mec","BMW"]; // <--- this is an array
+		var person = {
+			firstName :"John",
+			lastName : " Doe",
+			id : 12456,
+			fullName :function() {
+				return this.firstName + " " + this.lastName;
+			}
+		}
+
+
+		z = x+y;
+		var human = { firstName : " John",lastName : "Doe"}; // <--- this is an object
+		human = undefined;
+
+		document.getElementById("demo").innerHTML= " result "+z+".";
+
+// this is a comment 
+/* THIS IS A BLOCK OF COMMENT 
+ASDFGHJK
+*/
+	</script>
+	<script >
+		var price1 = 5;
+		var price2= 6;
+		var total = price1 + price 2;
+		price1 = price1 + 3;
+		var pi = 3.14;
+		var person = " John Doe";
+		var answer = ' Yes I am!';
+		var a="a",b="b",c="c",d="d";
+		var person2 = " John Doe",
+		carName = " Volvo",
+		price2 = " 200 ";
+		var q = "5 " + 6 +7;
+		var w = 5*6+"7";
+		w += "added";
+		price1 += 5;
+		var leng = person2.length;
+
+
+
+		document.getElementById("myH").innerHTML = " my first page"
+		document.getElementById("myP").innerHTML= " My first paragraph"
+		document.getElementById("demo").innerHTML = pi;
+		<element event = ' some Java Script'>
+		<element event = "some Javascript">
+		<button onclick ="document.getElementById('demo').innerHTML = Date()"></button>
+
+
+	</script>
+	<button type="button" onclick="document.write(5+6)">Try it</button>
+	<button onclick="this.innerHTML=Date()"></button>
+	<button onclick="displayDate()" >The time is ? </button>
+
+
+
+
+</body>
+</html>>
+
