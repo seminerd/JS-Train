@@ -179,9 +179,19 @@ function myFunction9(value){
 var indexfirst = so1.findIndex(myFunction10)
 function myFunction10(value){
 	return value >10 ;
-	
+
 }
-
-
-
-
+============DATE==============
+new Date()
+new Date(year, month, day, hours, minutes, seconds, milliseconds)
+new Date(milliseconds)
+new Date(date string)
+var d = new Date();
+var d = new Date(2018, 11, 24, 10, 33, 30, 0);
+var d = new Date(2018, 11, 24, 10, 33, 30);
+var d = new Date(2018, 11, 24, 10, 33);
+var d = new Date(2018, 11, 24, 10);
+var d = new Date(2018, 11, 24);
+var d = new Date(2018, 11);
+var d = new Date(2018);
+/// end 1h27
