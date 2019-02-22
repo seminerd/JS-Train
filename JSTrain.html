@@ -57,9 +57,24 @@ ASDFGHJK
 	<script >
 		var price1 = 5;
 		var price2= 6;
+		var pts = price1.toString();
+
 		var total = price1 + price 2;
 		price1 = price1 + 3;
 		var pi = 3.14;
+		var piex = pi.toExponential(2);
+		var pif = pi.toFixed(0); //<-- làm tròn
+		var piff = pi.toPrecision(); // - làm tròn nhưng trả về string
+		number(new Date("2017-09-30"));
+		Number.MIN_VALUE;
+		Number.MAX_VALUE;
+		var fuit,text,fLen,i;
+		fruits= []
+
+
+
+
+
 		var person = " John Doe";
 		var answer = ' Yes I am!';
 		var a="a",b="b",c="c",d="d";
@@ -71,6 +86,67 @@ ASDFGHJK
 		w += "added";
 		price1 += 5;
 		var leng = person2.length;
+		var p = " The character \\ is called backslash";
+		var x = " it\'s alright";
+		document.getElementById('demo').innerHTML = 
+		" Hello MDFK ";
+		var y = new String("John"); // --> typeof return object,not string
+		var str = " please locate where 'locate' occurs ";
+		var pos = str.indexOf("locate");
+		var posl = str.lasIndexOf("locate");
+		var poss = str.indexOf("locate",15);
+		var str = " Apple,banana,kiwi";
+		var res = str.slice(-12,-6);
+		var res2 = str.slice(7);
+		var res3 = str.slice(-12);
+		var res4 = str.substr(7,6);
+		var res5 = str.substr(7);
+		var n = str.replace("Microsoft","W3Schools"); // < replace Microsoft by W3School,case sensitive
+		var n2 = str.replace(/MICROSOFT/i,"W3School");
+		var to = str.toUpperCase();
+		var to2 =str.toLowerCase();
+		var new = str.concat(" ",person2);
+		var str2= "              HLMDFK          ";
+		alert(str.trim()); // <----- remove all white space
+		str.charAt(0);
+		str.charCodeAt(0);
+		var txt = "a,b,c,d,e";
+		txt.split(","); // <-- split by commas
+		txt.split(" "); // <--- split by space
+		txt.split(""); // <-- split in character
+		var x = 123e5 ; // <---- 123* (10^5)
+		var y = 123e-5 // <-- 123*(10^-5)
+		class people // <---- khai báo một class
+{
+    constructor(name, lastname, id)
+    {
+        this.name = name;
+        this.lastname = lastname;
+        this.id = id;
+    }
+    showname()
+    {
+        alert(this.name);
+        alert(this.lastname);
+        alert(this.id);
+    }
+};
+var person = new people("Huy","Nguyen",176786); //<---- khởi tạo một object thuộc class people 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
