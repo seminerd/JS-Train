@@ -195,3 +195,109 @@ var d = new Date(2018, 11, 24);
 var d = new Date(2018, 11);
 var d = new Date(2018);
 /// end 1h27
+Math.floor(4.7) // <--- làm tròn xuống sàn số ( 4,7 xuống 4)
+Math.string(90* Math.PI / 180);
+Math.min(14,543,2,62,3,75);
+Math.max(235,23,75,23,665);
+Math.random();
+Math.E        // returns Euler's number
+Math.PI       // returns PI
+Math.SQRT2    // returns the square root of 2
+Math.SQRT1_2  // returns the square root of 1/2
+Math.LN2      // returns the natural logarithm of 2
+Math.LN10     // returns the natural logarithm of 10
+Math.LOG2E    // returns base 2 logarithm of E
+Math.LOG10E   // returns base 10 logarithm of E
+abs(x)	Returns the absolute value of x
+acos(x)	Returns the arccosine of x, in radians
+asin(x)	Returns the arcsine of x, in radians
+atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+atan2(y, x)	Returns the arctangent of the quotient of its arguments
+ceil(x)	Returns the value of x rounded up to its nearest integer
+cos(x)	Returns the cosine of x (x is in radians)
+exp(x)	Returns the value of Ex
+floor(x)	Returns the value of x rounded down to its nearest integer
+log(x)	Returns the natural logarithm (base E) of x
+max(x, y, z, ..., n)	Returns the number with the highest value
+min(x, y, z, ..., n)	Returns the number with the lowest value
+pow(x, y)	Returns the value of x to the power of y
+random()	Returns a random number between 0 and 1
+round(x)	Returns the value of x rounded to its nearest integer
+sin(x)	Returns the sine of x (x is in radians)
+sqrt(x)	Returns the square root of x
+tan(x)	Returns the tangent of an angle
+function getRndInteger(min,max){
+	return Math.floor(Math.random()*(max - min)) + min;
+
+}
+Boolean(1);
+if (hour <18) {
+	greeting = " good day";
+}
+if (true) {greeting = "good day";} else {
+	greeting = " good evening";
+
+}
+if (time <10) {
+	greeting = " good morning ";
+
+} else if(time <20) {
+	greeting = " good day";
+
+} else { greeting = "good evening"}
+switch (new Date().getDay()){
+	case 0:
+	day = " sunday";
+	break;
+	case 1:
+	day = "monday";
+	break;
+	case 2 :
+	day = " tuesday";
+	break;
+	case 3:
+	day = "wednesday";
+	break;
+	case 4:
+	day = " thursday";
+	break;
+	case 5:
+	day = " friday";
+	break;
+	case 6:
+	day = " saturday";
+	break;
+	default:
+	day = " dont know";
+} // switch case use STRICT COMPARISON ( === )
+var i;
+for ( i=1 ; i< xehoi.length ; i++){
+	text += xehoi[i]+"<br>";
+}
+var person = {fname :"Nguyen", lname:"Huy",age : 20};
+var text = "";
+var x;
+for (x in person){
+	text += person[x];
+}
+while (i <10){
+	text += " The number is " + i;
+	i ++;
+}
+do {
+	text += " the number is " + i ;
+	i ++;
+}
+while (i<10);
+for (i = 0; i<10;i++) {
+	if ( i===3){continue;}
+	text += " the number is " + i + "<br>";
+}
+list :{
+	text += xehoi[0];
+	text += xehoi[1];
+	text+= xehoi[2];
+	break list;
+	text+=xehoi[3];
+} // --------> đoạn này chưa hiểu lắm , cần review lại sau 
+
