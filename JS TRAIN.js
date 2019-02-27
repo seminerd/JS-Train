@@ -329,9 +329,100 @@ for (i = 0; i < 10; i++)
 }
 list:
 {
-    text += xehoi[0];
+    text     += xehoi[0];
     text += xehoi[1];
     text += xehoi[2];
     break list;
     text += xehoi[3];
 } // --------> đoạn này chưa hiểu lắm , cần review lại sau
+var patt = /w3schools/i;
+var str = "Visit W3sSchools!" ;
+var n =str.search("W3sSchools");
+var n2 = str.search(/W3sSchools/i);
+var res = str.replace("Microsoft","W3sSchools");
+var str.replace(/microsoft/i,"W3sSchools");
+patt.test("Some string to test!");
+patt.exec("The best things to in life are free");
+try {
+    adddlert("Welcome guess");
+
+} catch (err){
+    document.getElementById("demo").innerHTML = err.message;
+}
+function trycatchthrow(){
+    var messgae ,x;
+    message = document.getElementById("p01");
+    message.innerHTML = "";
+    x = document.getElementById("demo").value;
+    try {
+        if ( x ==0) throw "empty";
+        if (isNaH(x)) throw "not a number";
+        x = Number(x);
+        if (X<5) {throw "too low";}
+        if (x >10) {throw "too high";}
+    } catch(err){
+        message.innerHTML = "Input is" + err;
+
+    } finally {
+        document.getElementById("demo").value = "";
+    }
+}
+var num = 1;
+try {
+    x = y +1;
+
+}catch(err){
+    document.getElementById("demo").innerHTML = err.name;
+}
+try {
+    decodeURI("%%%");
+}
+catch(err) {
+    document.getElementById("demo").innerHTML = err.name ;
+
+}
+function myFunction7() {
+    var carName = "volvo";
+}
+x = 5;
+elem = document.getElementById("demo");
+elem.innerHTML = x;
+var x;
+var x = 5;
+var y =7;
+elem = document.getElementById("demo");
+elem.innerHTML = x+ " " +y;
+"use STRICT"; // khi dùng strict mode thì không thể HOIST
+x = 3.14;
+{
+    let x =2;
+}
+ // x cannot be used here out the block
+var x =10;
+{
+    var x =2;
+
+}
+//x = 2
+var x =10 ;
+{
+    let x =2;
+}
+// here x =10
+let i =5;
+for ( let i =0;i<10;i++){
+    i += 2;
+}
+//here i = 5
+let x = 2;       // Allowed
+let x = 3;       // Not allowed
+
+{
+  let x = 4;   // Allowed
+  let x = 5;   // Not allowed
+}
+const PI = 3.141592653589793;
+PI = 3.14;      // This will give an error
+PI = PI + 10;   // This will also give an error
+const cars = ["Saab", "Volvo", "BMW"];
+cars = ["Toyota", "Volvo", "Audi"];    // ERROR
